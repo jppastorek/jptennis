@@ -1,0 +1,255 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#title {
+    background-color: #3C638E/*#0f4c75*/;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% !important;
+}
+
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem !important;
+    font-weight: 900 !important;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #e0f3ff;
+}
+
+
+.navbar {
+    padding: 0 0 4.5rem !important;
+}
+
+
+
+.navbar-brand {
+    font-size: 2.5rem !important;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+#profile-pic {
+    width: 60%;
+    object-fit: contain;
+    border-radius: 10%;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+}
+
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+
+
+
+
+/*Features*/
+
+#features {
+    padding: 7% 15%;
+    font-family:'Montserrat', sans-serif;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5% !important;
+}
+
+.header-feature {
+    font-weight: 800 !important;
+    font-size: 1rem;
+    color: black;
+}
+
+#phone {
+    color: white;
+}
+
+
+
+.p-feature {
+    color:#8f8f8f;
+    font-size: 0.8rem;
+}
+
+.icon {
+    color: #bbe1fa;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #41a0e0;
+}
+
+
+
+
+
+
+
+/*About*/
+
+#about {
+    text-align: left;
+    background-color: #829bb7 /*#41a0e0*/;
+    color: #fff;
+    padding: 100px;
+}
+
+#about-pic {
+    width: 60%;
+    object-fit: contain;
+    border-radius: 10%;
+}
+
+#quote {
+    color: lightgray;
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+h3 {
+    font-weight: bold !important;
+}
+
+
+
+
+
+
+/* Contact */
+
+#contact {
+    padding: 100px;
+    background-color: #3C638E;
+    color: white;
+    text-align: center;
+
+}
+
+#contact-text {
+    font-size: 0.8rem !important;
+    font-style: italic;
+    padding: 10px 0;
+    color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+/* Footer */
+#footer {
+    background-color: #3C638E;
+    padding: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* Contact CSS Test */
+
+/*-------- contact page start --------*/
+		.ff_contact_box {
+		  text-align: center;
+		  padding: 40px 0px;
+		  margin-bottom: 50px;
+		  background-image: url(contact.jpg);
+		  background-repeat: no-repeat;
+		  background-position: center;
+		  background-size: cover;
+		  background-attachment: initial;
+		  position: relative;
+		  -webkit-perspective: 100px;
+		  -moz-perspective: 100px;
+		  -ms-perspective: 100px;
+		  perspective: 100px;
+		}
+		.ff_contact_box:after {
+		  content: "";
+		  position: absolute;
+		  top: 10px;
+		  right: 10px;
+		  bottom: 10px;
+		  left: 10px;
+		  outline: rgba(233, 233, 233, 0.4) solid 10px;
+		  background-color: rgba(60, 99, 142, 0.9);
+		  z-index: -1;
+		}
+		 .ff_contact_box span {
+		  color: #ffffff;
+		  font-size: 35px;
+		  margin-bottom: 10px;
+		}
+		 .ff_contact_box h4 {
+		  font-size: 25px;
+		  color: #ffffff;
+		  margin-bottom: 15px;
+		}
+		.ff_contact_box p {
+		  color: #ffffff;
+		}
+		.ff_contact_box a {
+		  color: #ffffff;
+		}
+		 .ff_contact_box a:hover {
+		  color: lightgrey;
+		}
+
